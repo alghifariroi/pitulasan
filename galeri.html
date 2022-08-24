@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Halaman Galeri Pitulasan</title>
+
+   <link rel="shortcut icon" href="assets/images/icon.png" type="image/png">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+   <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet"/>
+    
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"/>
+
+   <link rel="stylesheet" href="assets/css/style2.css" />
+
+</head>
+<body>
+    
+<div id="side-menu" class="fas fa-bars"></div>   
+
+<div class="side-bar">
+   <h1 class="heading">PITULASANS.</h1>
+   <div class="box">
+      <h3 class="title">search image :</h3>
+      <input type="text" placeholder="search image..." id="search-box">
+   </div>
+   <div class="box">
+      <h3 class="title">Kegiatan :</h3>
+      <div class="category">
+         <div class="btn active" data-category="all"> all </div>
+         <div class="btn" data-category="tirakatan">Tirakatan</div>
+         <div class="btn" data-category="jalansehat">Jalan Sehat.</div>
+         <div class="btn" data-category="senammasal">Senam Masal</div>
+      </div>
+   </div>
+   <div class="reset-btn"><div class="btn">reset all</div></div>
+</div>
+
+<div class="gallery">
+
+   <h1 class="heading">image gallery</h1>
+
+   <div class="image-container">
+      <img src="jalansehat/1.jpg" data-cat="jalansehat" data-search="jalan sehat" alt="">
+      <img src="jalansehat/2.jpg" data-cat="jalansehat" data-search="jalan sehat" alt="">
+      <img src="jalansehat/3.jpg" data-cat="jalansehat" data-search="jalan sehat" alt="">
+      <img src="jalansehat/4.jpg" data-cat="jalansehat" data-search="jalan sehat" alt="">
+      <img src="jalansehat/5.jpg" data-cat="jalansehat" data-search="jalan sehat" alt="">
+      <img src="jalansehat/6.jpg" data-cat="jalansehat" data-search="jalan sehat" alt="">
+      <img src="jalansehat/7.jpg" data-cat="jalansehat" data-search="jalan sehat" alt="">
+      <img src="jalansehat/8.jpg" data-cat="jalansehat" data-search="jalan sehat" alt="">
+      <img src="jalansehat/9.jpg" data-cat="jalansehat" data-search="jalan sehat" alt="">
+
+      <img src="senammasal/1.jpg" data-cat="senammasal" data-search="senam masal" alt="">
+      <img src="senammasal/2.jpg" data-cat="senammasal" data-search="senam masal" alt="">
+      <img src="senammasal/3.jpg" data-cat="senammasal" data-search="senam masal" alt="">
+      <img src="senammasal/4.jpg" data-cat="senammasal" data-search="senam masal" alt="">
+      <img src="senammasal/5.jpg" data-cat="senammasal" data-search="senam masal" alt="">
+      <img src="senammasal/6.jpg" data-cat="senammasal" data-search="senam masal" alt="">
+      <img src="senammasal/7.jpg" data-cat="senammasal" data-search="senam masal" alt="">
+      <img src="senammasal/8.jpg" data-cat="senammasal" data-search="senam masal" alt="">
+      <img src="senammasal/9.jpg" data-cat="senammasal" data-search="senam masal" alt="">
+      <img src="senammasal/10.jpg" data-cat="senammasal" data-search="senam masal" alt="">
+
+      <img src="tirakatan/1.jpg" data-cat="tirakatan" data-search="malam tirakatan" alt="">
+      <img src="tirakatan/2.jpg" data-cat="tirakatan" data-search="malam tirakatan" alt="">
+      <img src="tirakatan/3.jpg" data-cat="tirakatan" data-search="malam tirakatan" alt="">
+      <img src="tirakatan/4.jpg" data-cat="tirakatan" data-search="malam tirakatan" alt="">
+      <img src="tirakatan/5.jpg" data-cat="tirakatan" data-search="malam tirakatan" alt="">
+      <img src="tirakatan/6.jpg" data-cat="tirakatan" data-search="malam tirakatan" alt="">
+      <img src="tirakatan/7.jpg" data-cat="tirakatan" data-search="malam tirakatan" alt="">
+      <img src="tirakatan/9.jpg" data-cat="tirakatan" data-search="malam tirakatan" alt="">
+      <img src="tirakatan/10.jpg" data-cat="tirakatan" data-search="malam tirakatan" alt="">
+      <img src="tirakatan/11.jpg" data-cat="tirakatan" data-search="malam tirakatan" alt="">
+
+   </div>
+
+</div>
+
+<div class="image-popup">
+   <img src="" alt="">
+</div>
+
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
